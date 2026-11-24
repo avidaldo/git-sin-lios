@@ -17,7 +17,7 @@
 <body>
   <header class="wrap topbar">
     <a href="#inicio" class="brand" aria-label="Git, sin líos — inicio"><span class="brand-icon">⑂</span> git, sin líos</a>
-    <nav class="topnav" aria-label="Navegación principal"><a href="#flujo">El flujo</a><a href="#conceptos">Conceptos</a><a href="#ramas">Ramas</a><a href="#comandos">Comandos</a></nav>
+    <nav class="topnav" aria-label="Navegación principal"><a href="#flujo">El flujo</a><a href="#conceptos">Conceptos</a><a href="#github">GitHub</a><a href="#ramas">Ramas</a><a href="#comandos">Comandos</a></nav>
     <a class="top-cta" href="#practica">Practicar ↗</a>
   </header>
   <main id="inicio" class="wrap">
@@ -59,6 +59,18 @@
         <article class="concept"><div class="concept-top"><h3>Pull</h3><span class="concept-icon">↓</span></div><p>Trae los cambios del repositorio remoto a tu copia. Útil antes de empezar a trabajar.</p><code>git pull</code></article>
         <article class="concept"><div class="concept-top"><h3>Rama · branch</h3><span class="concept-icon">⑂</span></div><p>Una línea de trabajo paralela. Prueba una idea ahí sin tocar la versión principal.</p><code>git switch -c nueva-idea</code></article>
         <article class="concept"><div class="concept-top"><h3>Merge</h3><span class="concept-icon">⤴</span></div><p>Une los cambios de una rama con otra. Por ejemplo, al terminar tu nueva función.</p><code>git merge nueva-idea</code></article>
+      </div>
+    </section>
+
+    <section id="github" class="section">
+      <div class="section-head"><div><div class="kicker">03 / Git y GitHub</div><h2>Git guarda.<br>GitHub conecta.</h2></div><p class="section-intro">Se parecen en el nombre, pero cumplen papeles distintos. Juntos hacen más fácil colaborar y compartir proyectos.</p></div>
+      <div class="concepts">
+        <article class="concept"><div class="concept-top"><h3>Git</h3><span class="concept-icon">◉</span></div><p>Es la herramienta que registra versiones de tu proyecto. Funciona en tu ordenador, incluso sin internet.</p><code>git commit</code></article>
+        <article class="concept"><div class="concept-top"><h3>GitHub</h3><span class="concept-icon">◎</span></div><p>Es una plataforma web donde puedes alojar repositorios Git, compartirlos y colaborar con otras personas.</p><code>github.com</code></article>
+        <article class="concept"><div class="concept-top"><h3>Repositorio remoto</h3><span class="concept-icon">☁</span></div><p>Es la copia del proyecto alojada en GitHub. Con <strong>push</strong> envías tus commits; con <strong>pull</strong> recibes los nuevos.</p><code>git push · git pull</code></article>
+        <article class="concept"><div class="concept-top"><h3>Pull request</h3><span class="concept-icon">⇄</span></div><p>Es una propuesta para revisar y unir los cambios de una rama con otra. El equipo puede comentarla antes de incorporarla.</p><code>Revisar → aprobar → unir</code></article>
+        <article class="concept"><div class="concept-top"><h3>GitHub Pages</h3><span class="concept-icon">↗</span></div><p>Publica como web estática el contenido de un repositorio. Sirve para compartir páginas, documentación y proyectos sencillos.</p><code>Repositorio → sitio web</code></article>
+        <article class="concept"><div class="concept-top"><h3>Flujo habitual</h3><span class="concept-icon">⑂</span></div><p>Creas una rama, guardas commits, los subes a GitHub y abres un pull request para revisarlos.</p><code>branch → commit → push → PR</code></article>
       </div>
     </section>
 
